@@ -14,10 +14,13 @@ import com.yeditepe.finalexam.viewmodel.TaskViewModel
 fun TaskListScreen(viewModel: TaskViewModel = viewModel()) {
 
     // TODO 3: Read task list from ViewModel
+     val tasks = viewModel.tasks
 
     Column {
         // TODO 4: Display task titles and completion status
         // Use a simple Column or LazyColumn
+          tasks.forEach { task ->
+            TaskRow(task = task, navController = navController)
     }
 }
 
