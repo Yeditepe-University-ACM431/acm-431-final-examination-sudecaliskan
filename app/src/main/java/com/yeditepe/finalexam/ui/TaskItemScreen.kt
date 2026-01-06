@@ -26,7 +26,7 @@ fun TaskItemScreen() {
 
         // TODO 2: Show text "Completed" or "Not Completed"
         // depending on completion state
-        val isCompleted = true
+        var isCompleted = true
         if (isCompleted) {
             Text(text = "Completed")
         } else {
