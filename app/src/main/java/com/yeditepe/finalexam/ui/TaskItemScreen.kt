@@ -15,6 +15,7 @@ fun TaskItemScreen() {
 
     // TODO 1: Create a mutable state to hold completion status (Boolean)
     // Initial value should be false
+      var isCompleted by remember { mutableStateOf(false) }
 
     Column(modifier = Modifier.padding(16.dp)) {
 
