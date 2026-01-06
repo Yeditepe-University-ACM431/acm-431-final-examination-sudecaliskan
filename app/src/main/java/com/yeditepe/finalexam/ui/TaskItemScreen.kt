@@ -35,6 +35,7 @@ fun TaskItemScreen() {
         Button(
             onClick = {
                 // TODO 3: Toggle completion state
+                 isCompleted = !isCompleted
             }
         ) {
             Text("Change Status")
