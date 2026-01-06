@@ -10,6 +10,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
+fun getValue(completed: Any) {
+
+}
+
 @Composable
 fun TaskItemScreen() {
 
